@@ -20,6 +20,7 @@
   {
    "fieldname": "zodiac",
    "fieldtype": "Link",
+   "in_list_view": 1,
    "label": "Zodiac",
    "options": "Zodiac",
    "reqd": 1
@@ -29,7 +30,7 @@
  "index_web_pages_for_search": 1,
  "istable": 1,
  "links": [],
- "modified": "2025-03-27 14:41:02.481767",
+ "modified": "2025-03-27 16:01:55.413369",
  "modified_by": "Administrator",
  "module": "ZodiaX",
  "name": "Daily Horoscope Match",
