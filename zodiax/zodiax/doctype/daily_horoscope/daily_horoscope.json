@@ -1,0 +1,110 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "autoname": "format:{YYYY}-{MM}-{DD}-{zodiac_sign}",
+ "creation": "2025-03-27 12:12:30.365367",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "zodiac_sign",
+  "date",
+  "column_break_vmvf",
+  "lucky_color",
+  "lucky_number",
+  "section_break_vury",
+  "predictions",
+  "section_break_xylt",
+  "matches",
+  "section_break_wdbw",
+  "ratings"
+ ],
+ "fields": [
+  {
+   "fieldname": "zodiac_sign",
+   "fieldtype": "Link",
+   "in_list_view": 1,
+   "label": "Zodiac Sign",
+   "options": "Zodiac",
+   "reqd": 1
+  },
+  {
+   "fieldname": "date",
+   "fieldtype": "Date",
+   "in_list_view": 1,
+   "label": "Date",
+   "reqd": 1
+  },
+  {
+   "fieldname": "column_break_vmvf",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "lucky_color",
+   "fieldtype": "Data",
+   "label": "Lucky Color",
+   "reqd": 1
+  },
+  {
+   "fieldname": "lucky_number",
+   "fieldtype": "Int",
+   "label": "Lucky Number",
+   "reqd": 1
+  },
+  {
+   "fieldname": "section_break_vury",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "predictions",
+   "fieldtype": "Table",
+   "label": "Predictions",
+   "options": "Daily Horoscope Prediction"
+  },
+  {
+   "fieldname": "section_break_xylt",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "matches",
+   "fieldtype": "Table",
+   "label": "Matches",
+   "options": "Daily Horoscope Match"
+  },
+  {
+   "fieldname": "section_break_wdbw",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "ratings",
+   "fieldtype": "Table",
+   "label": "Star Ratings",
+   "options": "Daily Horoscope Rating"
+  }
+ ],
+ "grid_page_length": 50,
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2025-03-27 13:26:17.679042",
+ "modified_by": "Administrator",
+ "module": "ZodiaX",
+ "name": "Daily Horoscope",
+ "naming_rule": "Expression",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

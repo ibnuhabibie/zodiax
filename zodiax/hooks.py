@@ -148,23 +148,11 @@ app_license = "mit"
 # Scheduled Tasks
 # ---------------
 
-# scheduler_events = {
-# 	"all": [
-# 		"zodiax.tasks.all"
-# 	],
-# 	"daily": [
-# 		"zodiax.tasks.daily"
-# 	],
-# 	"hourly": [
-# 		"zodiax.tasks.hourly"
-# 	],
-# 	"weekly": [
-# 		"zodiax.tasks.weekly"
-# 	],
-# 	"monthly": [
-# 		"zodiax.tasks.monthly"
-# 	],
-# }
+scheduler_events = {
+	"daily": [
+		"zodiax.tasks.daily_horoscope.generate_daily_horoscope"
+	]
+}
 
 # Testing
 # -------
