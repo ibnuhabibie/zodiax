@@ -7,11 +7,14 @@
  "doctype": "DocType",
  "engine": "InnoDB",
  "field_order": [
+  "section_break_xoze",
   "sign",
   "element",
   "column_break_icsv",
   "start_date",
   "end_date",
+  "section_break_vrbi",
+  "zodiac_image",
   "section_break_chlc",
   "description"
  ],
@@ -59,12 +62,26 @@
    "fieldtype": "Small Text",
    "label": "Description",
    "reqd": 1
+  },
+  {
+   "fieldname": "section_break_xoze",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "section_break_vrbi",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "zodiac_image",
+   "fieldtype": "Attach Image",
+   "label": "Image"
   }
  ],
  "grid_page_length": 50,
+ "image_field": "zodiac_image",
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2025-03-27 11:53:45.592111",
+ "modified": "2025-04-05 00:04:04.570939",
  "modified_by": "Administrator",
  "module": "ZodiaX",
  "name": "Zodiac",

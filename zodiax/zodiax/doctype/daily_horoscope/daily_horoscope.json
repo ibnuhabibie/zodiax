@@ -8,6 +8,7 @@
  "field_order": [
   "zodiac_sign",
   "date",
+  "zodiac_image",
   "column_break_vmvf",
   "lucky_color",
   "lucky_number",
@@ -79,12 +80,19 @@
    "fieldtype": "Table",
    "label": "Star Ratings",
    "options": "Daily Horoscope Rating"
+  },
+  {
+   "fetch_from": "zodiac_sign.zodiac_image",
+   "fieldname": "zodiac_image",
+   "fieldtype": "Data",
+   "label": "Zodiac Image",
+   "read_only": 1
   }
  ],
  "grid_page_length": 50,
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2025-03-27 13:26:17.679042",
+ "modified": "2025-04-05 00:50:13.157100",
  "modified_by": "Administrator",
  "module": "ZodiaX",
  "name": "Daily Horoscope",

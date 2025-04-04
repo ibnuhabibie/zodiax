@@ -7,7 +7,8 @@
  "engine": "InnoDB",
  "field_order": [
   "category",
-  "zodiac"
+  "zodiac",
+  "zodiac_image"
  ],
  "fields": [
   {
@@ -24,13 +25,19 @@
    "label": "Zodiac",
    "options": "Zodiac",
    "reqd": 1
+  },
+  {
+   "fetch_from": "zodiac.zodiac_image",
+   "fieldname": "zodiac_image",
+   "fieldtype": "Data",
+   "label": "Zodiac Image"
   }
  ],
  "grid_page_length": 50,
  "index_web_pages_for_search": 1,
  "istable": 1,
  "links": [],
- "modified": "2025-03-27 16:01:55.413369",
+ "modified": "2025-04-05 00:56:24.686554",
  "modified_by": "Administrator",
  "module": "ZodiaX",
  "name": "Daily Horoscope Match",
